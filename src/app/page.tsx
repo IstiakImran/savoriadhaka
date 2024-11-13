@@ -2,11 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {
-  Star,
   ChevronRight,
   Clock,
-  CalendarDays,
-  Menu as MenuIcon,
   Facebook,
   Instagram,
   Twitter,
@@ -21,7 +18,7 @@ const VibrancyFilter = () => (
 );
 
 const HomePage = () => {
-  const [activePromo, setActivePromo] = React.useState(0);
+  // const [activePromo, setActivePromo] = React.useState(0);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-violet-50 to-cyan-50">

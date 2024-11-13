@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Card, CardTitle } from "@/components/ui/card";
 import {
   MapPin,
   Phone,
@@ -10,7 +10,6 @@ import {
   CalendarDays,
   ExternalLink,
 } from "lucide-react";
-import Image from "next/image";
 
 const ContactSection = () => {
   return (

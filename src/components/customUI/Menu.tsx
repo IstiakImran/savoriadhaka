@@ -1,20 +1,16 @@
 "use client";
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { Star, Search } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { Star } from "lucide-react";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { Input } from "@/components/ui/input";
+
 import type {
   MenuItem,
-  MenuCategory,
-  MenuData,
-  DietaryIconProps,
   MenuSectionProps,
   MenuItemCardProps,
   MenuItemModalProps,
@@ -22,11 +18,11 @@ import type {
 import menuData from "../../../public/menu-data.json";
 import Image from "next/image";
 
-const DietaryIcon: React.FC<DietaryIconProps> = ({ type }) => (
-  <span className="text-sm" title={type}>
-    {menuData.dietary_icons[type]}
-  </span>
-);
+// const DietaryIcon: React.FC<DietaryIconProps> = ({ type }) => (
+//   <span className="text-sm" title={type}>
+//     {menuData.dietary_icons[type]}
+//   </span>
+// );
 
 const MenuItemCard: React.FC<MenuItemCardProps> = ({
   item,
@@ -138,7 +134,7 @@ const MenuItemModal: React.FC<MenuItemModalProps> = ({
               {item.popular && (
                 <div className="absolute top-4 right-4 bg-gradient-to-r from-amber-400 to-orange-400 text-white px-4 py-2 rounded-full">
                   <Star className="h-5 w-5 fill-white inline mr-2" />
-                  Chef's Favorite
+                  Chef&apos;s Favorite
                 </div>
               )}
             </div>
