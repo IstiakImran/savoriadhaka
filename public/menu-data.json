@@ -1,0 +1,225 @@
+{
+  "categories": [
+    {
+      "id": "appetizers",
+      "name": "Appetizers & Starters",
+      "description": "Begin your culinary journey with our exquisite starters",
+      "items": [
+        {
+          "id": "bruschetta",
+          "name": "Artisanal Bruschetta",
+          "description": "Grilled sourdough topped with heirloom tomatoes, fresh basil, and aged balsamic",
+          "price": 12.99,
+          "image": "/Bruschetta.jpg",
+          "dietary": ["vegetarian"],
+          "spicyLevel": 0,
+          "popular": true
+        },
+        {
+          "id": "calamari",
+          "name": "Crispy Calamari",
+          "description": "Tender calamari rings with citrus aioli and sweet chili sauce",
+          "price": 14.99,
+          "image": "/calamari.jpg",
+          "spicyLevel": 1
+        },
+        {
+          "id": "spring-rolls",
+          "name": "Vegetable Spring Rolls",
+          "description": "Crispy rolls with mixed vegetables served with soy dipping sauce",
+          "price": 10.99,
+          "image": "/Rolls.jpg",
+          "dietary": ["vegan"],
+          "spicyLevel": 1
+        }
+      ]
+    },
+    {
+      "id": "main-courses",
+      "name": "Main Courses",
+      "description": "Expertly crafted entrées that define dining excellence",
+      "items": [
+        {
+          "id": "salmon",
+          "name": "Maple Glazed Salmon",
+          "description": "Wild-caught salmon with maple-miso glaze, quinoa, and seasonal vegetables",
+          "price": 28.99,
+          "image": "/Salmon.jpg",
+          "dietary": ["gluten-free"],
+          "popular": true
+        },
+        {
+          "id": "steak",
+          "name": "Prime Ribeye Steak",
+          "description": "12oz grass-fed ribeye with truffle butter and roasted garlic mash",
+          "price": 34.99,
+          "image": "/Steak.jpg",
+          "spicyLevel": 0
+        },
+        {
+          "id": "chicken-piccata",
+          "name": "Lemon Chicken Piccata",
+          "description": "Tender chicken breast in lemon-caper sauce, served with angel hair pasta",
+          "price": 25.99,
+          "image": "/Piccata.jpg"
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "description": "Sweet endings to perfect your dining experience",
+      "items": [
+        {
+          "id": "chocolate-lava",
+          "name": "Chocolate Lava Cake",
+          "description": "Warm chocolate cake with molten center and vanilla bean ice cream",
+          "price": 10.99,
+          "image": "/Cake.jpg",
+          "dietary": ["vegetarian"],
+          "popular": true
+        },
+        {
+          "id": "cheesecake",
+          "name": "Classic New York Cheesecake",
+          "description": "Creamy cheesecake with a graham cracker crust and berry compote",
+          "price": 9.99,
+          "image": "/Cheesecake.jpg",
+          "dietary": ["vegetarian"]
+        },
+        {
+          "id": "tiramisu",
+          "name": "Traditional Tiramisu",
+          "description": "Espresso-soaked ladyfingers layered with mascarpone cream",
+          "price": 11.99,
+          "image": "/Tiramisu.jpg"
+        }
+      ]
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "description": "Refreshing drinks and craft cocktails",
+      "items": [
+        {
+          "id": "passion-mojito",
+          "name": "Passion Fruit Mojito",
+          "description": "Fresh mint, lime, passion fruit, rum, and sparkling water",
+          "price": 12.99,
+          "image": "/Mojito.jpg",
+          "popular": true
+        },
+        {
+          "id": "iced-tea",
+          "name": "Homemade Iced Tea",
+          "description": "Classic iced tea with a hint of lemon and mint",
+          "price": 4.99,
+          "image": "/IcedTea.jpg"
+        },
+        {
+          "id": "espresso",
+          "name": "Double Espresso",
+          "description": "Rich and bold espresso, freshly brewed",
+          "price": 3.99,
+          "image": "/Espresso.jpg"
+        }
+      ]
+    },
+    {
+      "id": "special-diets",
+      "name": "Special Diets",
+      "description": "Thoughtfully created dishes for every dietary preference",
+      "items": [
+        {
+          "id": "buddha-bowl",
+          "name": "Buddha Bowl",
+          "description": "Quinoa, roasted vegetables, avocado, and tahini dressing",
+          "price": 18.99,
+          "image": "/BuddhaBowl.jpg",
+          "dietary": ["vegan", "gluten-free"],
+          "popular": true
+        },
+        {
+          "id": "zoodles",
+          "name": "Zucchini Noodles",
+          "description": "Zoodles with tomato-basil marinara, olives, and vegan parmesan",
+          "price": 16.99,
+          "image": "/zoodles.jpg",
+          "dietary": ["vegan", "gluten-free"]
+        },
+        {
+          "id": "cauliflower-steak",
+          "name": "Grilled Cauliflower Steak",
+          "description": "Herb-marinated cauliflower steak with chimichurri",
+          "price": 19.99,
+          "image": "/CauliflowerSteak.jpg",
+          "dietary": ["vegan", "gluten-free"]
+        }
+      ]
+    },
+    {
+      "id": "specials",
+      "name": "Daily Specials",
+      "description": "Chef's daily creative inspirations",
+      "items": [
+        {
+          "id": "catch-of-day",
+          "name": "Catch of the Day",
+          "description": "Fresh market fish with seasonal preparation",
+          "price": "Market Price",
+          "image": "/fishfinger.jpg"
+        },
+        {
+          "id": "wagyu-burger",
+          "name": "Wagyu Beef Burger",
+          "description": "Juicy Wagyu beef patty with truffle aioli and crispy onions",
+          "price": 24.99,
+          "image": "/BeefBurger.jpg"
+        },
+        {
+          "id": "lobster-pasta",
+          "name": "Lobster Pasta",
+          "description": "Linguine with fresh lobster in a creamy garlic sauce",
+          "price": 29.99,
+          "image": "/LobsterPasta.jpg"
+        }
+      ]
+    },
+    {
+      "id": "kids",
+      "name": "Kids Menu",
+      "description": "Special dishes for our little guests",
+      "items": [
+        {
+          "id": "mini-pizza",
+          "name": "Mini Margherita Pizza",
+          "description": "Fresh mozzarella, tomato sauce, and basil",
+          "price": 9.99,
+          "image": "/MargheritaPizza.jpg",
+          "dietary": ["vegetarian"]
+        },
+        {
+          "id": "chicken-tenders",
+          "name": "Chicken Tenders",
+          "description": "Crispy chicken tenders with a side of honey mustard",
+          "price": 8.99,
+          "image": "/ChickenTenders.jpg"
+        },
+        {
+          "id": "mac-n-cheese",
+          "name": "Mac & Cheese",
+          "description": "Creamy macaroni with cheddar cheese sauce",
+          "price": 7.99,
+          "image": "/MacCheese.jpg",
+          "dietary": ["vegetarian"]
+        }
+      ]
+    }
+  ],
+  "dietary_icons": {
+    "vegetarian": "🌱",
+    "vegan": "🌿",
+    "gluten-free": "🌾",
+    "spicy": "🌶️"
+  }
+}
